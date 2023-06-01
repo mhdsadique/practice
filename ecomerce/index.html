@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .imag{
+            width:100%;
+        }
+        #data{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            margin: auto;
+        }
+        #butt{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div><h1>E-comerce</h1><div>
+    <form action="" onsubmit="datasubmit()">
+        <input id="image" placeholder="image" type="text">
+        <input id="name" placeholder="name" type="text">
+        <input id="price" placeholder="price" type="number">
+        <input id="brand" placeholder="brand" type="text">
+        <input id="submit" type="submit">
+    </form>
+</div>
+<div>
+    <select name="" id="filter" onchange="filterfun()">
+        <option value="">filter</option>
+        <option value="nike">Nike</option>
+        <option value="puma">Puma</option>
+    </select>
+    <select name="" id="sort">
+        <option value="">sort</option>
+        <option value="l">LH</option>
+        <option value="h">HL</option>
+    </select>
+
+</div>
+    </div>
+    <div id="data">
+
+    </div>
+</body>
+</html>
+<script src="index.js"></script>

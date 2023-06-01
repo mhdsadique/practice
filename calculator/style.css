@@ -1,0 +1,47 @@
+
+@media  screen and (min-width:500px) {
+    #top{
+        width: 30%;
+        border: solid ;
+        height: 450px;
+      
+    }
+    .button{
+        height:330px;
+    }
+}
+@media screen and (max-width:499px) {
+    #top{
+        width: 70%;
+        border: solid red ;
+        height: 400px;
+    }
+    .button{
+        height:300px;
+    }
+}
+.button{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+
+    text-align: center;
+    gap: 25px;
+    margin: auto;
+    width: 80%;
+    border: solid;
+    font-weight: bold;
+    font-style: italic;
+}
+.button>div{
+    border: solid;
+    background-color: rgb(241, 103, 24);
+    border-radius: 10px;
+}
+.button>div:hover{
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+

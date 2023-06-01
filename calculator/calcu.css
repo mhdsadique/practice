@@ -1,0 +1,40 @@
+#all{
+    margin: auto;
+    border: 1px solid rgb(94, 3, 3);
+    width: 350px;
+    height: 420px;
+    border-radius: 20px;
+    background-image: url("https://avatars.githubusercontent.com/u/101445847?v=4");
+ background-repeat: no-repeat;
+}
+#display{
+height: 45px;
+text-align: center;
+font-weight: bold;
+font-style: italic;
+font-size: 30px;
+align-items: center;
+justify-content: center;
+display: flex;
+overflow: hidden;
+width: 85%;
+margin: auto;
+background-color: aliceblue;
+}
+
+.disp{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+font-style: italic;
+font-size: 30px;
+align-items: center;
+justify-content: center;
+display: flex;
+overflow: hidden;
+}
+.botto>div:hover{
+background-color: white;
+color: rgb(91, 24, 154);
+cursor: pointer;
+}

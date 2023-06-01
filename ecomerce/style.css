@@ -1,0 +1,16 @@
+#submit{
+    width: 100px;
+    background-color: red;
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(223, 223, 37);
+}
+
+#submit:hover{
+background-color: rgb(223, 223, 37);
+color: red;
+}
