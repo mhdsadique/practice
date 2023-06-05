@@ -1,28 +1,18 @@
 {
   "datas": [
     {
-      "id": 12,
-      "brand": "puma",
-      "name": "tom jerry",
-      "price": "700",
-      "size": "S,X,L,XXl",
-      "productID": "women13",
-      "catagory": "travel",
-      "img": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/r/t/rtor0011_1_67335460.jpg?rnd=20200526195200"
-    },
-    {
-      "img": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/r/t/rtor0011_1_67335460.jpg?rnd=20200526195200",
-      "name": "tom jerry",
-      "price": "530",
-      "brand": "odoo",
-      "id": 13
-    },
-    {
-      "img": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/r/t/rtor0011_1_67335460.jpg?rnd=20200526195200",
-      "name": "zxc vbn",
+      "img": "https://th.bing.com/th?id=OPA.re5Njz3RkVIYbA474C474&o=5&pid=21.1&h=266&w=208&rs=1",
+      "name": "flower",
       "price": "800",
       "brand": "nike",
-      "id": 14
+      "id": 15
+    },
+    {
+      "img": "https://th.bing.com/th?id=OPA.re5Njz3RkVIYbA474C474&o=5&pid=21.1&h=266&w=208&rs=1",
+      "name": "flowers",
+      "price": "600",
+      "brand": "puma",
+      "id": 16
     }
   ],
   "comments": [

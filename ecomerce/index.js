@@ -141,6 +141,4 @@ function updatefunction(i){
          Dataecom(e)
              }).catch((e)=>{
                  console.log(e)
-             })
-    
-        }
+             })}

@@ -2,16 +2,12 @@
 const express=require("express")
 const rout=express.Router()
 const { UserModel } = require("../model/model")
-
 rout.get("/",async(req,res)=>{
     const reqe=req.query
 try{
 const data=await UserModel.find(reqe)
     res.send(data)
-}catch{
-
-}
-})
+}catch(e){ res.send(e)}})
 rout.post("/",async(req,res)=>{
     const quer=req.body
     const user=new UserModel(quer)
@@ -37,9 +33,7 @@ rout.patch("/:id",async(req,res)=>{
         res.send("product hase been updated patched")
     }catch(e){
    res.send(e)
-    }
-        
-})
+    }})
 rout.put("/:id",async(req,res)=>{
     const pay=req.body
     const id=req.params.id
@@ -48,7 +42,5 @@ rout.put("/:id",async(req,res)=>{
         res.send("product hase been puted")
     }catch(e){
    res.send(e)
-    }
-        
-})
+    }})
 module.exports={rout}
