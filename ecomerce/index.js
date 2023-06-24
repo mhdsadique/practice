@@ -96,7 +96,7 @@ function updatefunction(i){
         }
        })
     //    getdata()
-    // window.location.reload()
+   // window.location.reload()
         console.log(data)
     }
 
