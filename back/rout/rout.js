@@ -8,7 +8,6 @@ try{
 const data=await UserModel.find(reqe)
     res.send(data)
 }catch(e){ res.send(e)}})
-
 rout.post("/",async(req,res)=>{
     const quer=req.body
     const user=new UserModel(quer)

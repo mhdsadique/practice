@@ -1,34 +1,56 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculator</title>
-    <link rel="stylesheet" href="c.css">
+    <title>Document</title>
+    <style>
+        #bot{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+        .did{
+            height: 40px;
+            border:solid 1px red;
+        }
+    </style>
 </head>
 <body>
     
-    <div>
-        <div id="display"></div>
-      <div class="bott">
+    <div class="did"></div>
+    <div id="bot">
         <div>1</div>
         <div>2</div>
-        <div>3</div>
-        <div>4</div>
         <div>5</div>
-        <div>6</div>
+        <div>3</div>
         <div>7</div>
+        <div>6</div>
+        <div>4</div>
         <div>8</div>
         <div>9</div>
-        <div>0</div>
         <div>+</div>
-        <div>-</div>
-        <div>*</div>
-        <div>C</div>
         <div>/</div>
-        <div>=</div>
-    </div>
+        <div>*</div>
+        <div>-</div>
+        <div>0</div>
+        <div>c</div>
+        <div></div>
     </div>
 </body>
 </html>
-<script src="./c.js"></script>
+<script>
+    let div=document.querySelectorAll("#bot>div")
+    for(let q=0;q<div.length;q++){
+        div[q].addEventListener("click",fun)
+        // addEventListener
+    }
+    let sum=''
+    function fun(e){
+        let data=e.target.innerText
+        sum+=data
+        console.log(data)
+        document.querySelector(".did").innerText=sum
+    }
+</script>

@@ -1,5 +1,4 @@
 
-
 console.log("done")
 let div=document.querySelectorAll(".button>div")
 for(i=0;i<div.length;i++){

@@ -4,7 +4,6 @@ let data=document.querySelectorAll(".bott>div")
 for(let i=0;i<data.length;i++){
     data[i].addEventListener("click",clickme)
 }
-
 let bag=""
 function clickme(event){
     let valu=event.target.innerText

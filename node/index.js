@@ -5,7 +5,7 @@ const { rout } = require("./rout/rout")
 const app=express()
 
 app.use(express.json())
-app.use("/dum",rout)
+app.use("/rout",rout)
 app.get("/",(req,res)=>{
     res.send("done get")
 })

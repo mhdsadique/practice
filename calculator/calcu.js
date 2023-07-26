@@ -1,5 +1,4 @@
 
-
 var divq=document.querySelectorAll(".botto>div")
 console.log(divq)
 
