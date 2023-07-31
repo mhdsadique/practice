@@ -1,5 +1,13 @@
 
-.bott{
-display: grid;
-grid-template-columns: repeat(4,1fr);
+#bott{
+    border: solid 1px orange;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
 }

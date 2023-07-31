@@ -12,7 +12,7 @@ app.get("/",(req,res)=>{
 app.listen(8100,async()=>{
     console.log("done port running 8100")
     try{
-   await  mongoose.connect("mongodb://127.0.0.1:27017/dummy")
+    mongoose.connect("mongodb://127.0.0.1:27017/dummy")
    console.log("done connected to database")
 }catch(e){
         console.log(e)

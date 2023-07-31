@@ -1,56 +1,63 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="c.css">
     <style>
-        #bot{
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
+        #display{
+            border: 1px solid red;
+            display: flex;
+            height: 50px;
+            
         }
-        .did{
-            height: 40px;
-            border:solid 1px red;
+        .dis{
+            width:80%;
+            border: 5px solid green;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            color: blue;
+        }
+        .all{
+            width: 400px;
+            margin: auto;
+        }
+        #display>img{
+            width: 80px;
+            height: 100%;
         }
     </style>
 </head>
 <body>
-    
-    <div class="did"></div>
-    <div id="bot">
-        <div>1</div>
-        <div>2</div>
-        <div>5</div>
-        <div>3</div>
-        <div>7</div>
-        <div>6</div>
-        <div>4</div>
-        <div>8</div>
-        <div>9</div>
-        <div>+</div>
-        <div>/</div>
-        <div>*</div>
-        <div>-</div>
-        <div>0</div>
-        <div>c</div>
-        <div></div>
-    </div>
+    <div class="all">
+        <div id="display">
+            <img src="../Masai-School.png" alt="Masai-School" srcset="">
+            <div class="dis"></div>
+        </div>
+        <div id="bott"> 
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>-</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>+</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>*</div>
+    <div>C</div>
+    <div>0</div>
+    <div>=</div>
+    <div>/</div>
+</div>
+</div>
 </body>
 </html>
-<script>
-    let div=document.querySelectorAll("#bot>div")
-    for(let q=0;q<div.length;q++){
-        div[q].addEventListener("click",fun)
-        // addEventListener
-    }
-    let sum=''
-    function fun(e){
-        let data=e.target.innerText
-        sum+=data
-        console.log(data)
-        document.querySelector(".did").innerText=sum
-    }
-</script>
+<script src="./c.js"></script>
