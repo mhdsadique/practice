@@ -5,7 +5,8 @@ const mongoose=require("mongoose")
 
 const model= mongoose.Schema({
     name:String,
-    age:Number
+    age:Number,
+    img:String
 
 })
 const Usermodel=mongoose.model("dummy",model)
