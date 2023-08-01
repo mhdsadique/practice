@@ -8,13 +8,13 @@ void main(){
   // print('sum + ${num1}');
 
   int num=10;
-  if(num<0){
-    print("-1");
+  if(num<10){
+    print(-1);
   }
-  else if(num==0){
-    print("0");
+  else if(num==10){
+    print(0);
   }else{
-    print("1");
+    print(1);
   }
 }
 // npm i react
