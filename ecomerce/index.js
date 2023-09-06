@@ -137,7 +137,6 @@ function updatefunction(i){
             fetch(`http://localhost:8000/datas?brand=${data}`
                  ).then((e)=>e.json())
              .then((e)=>{
-         // console.log(e)
          Dataecom(e)
              }).catch((e)=>{
                  console.log(e)
