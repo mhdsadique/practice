@@ -3,7 +3,7 @@ const apps= document.querySelectorAll("#bott>div")
  for(let q=0;q<apps.length;q++){
     apps[q].addEventListener("click",calcu)
  }
- let bag=''
+ let bag=""
 function calcu(e){
    const value= e.target.innerText
    const disp=document.querySelector(".dis")

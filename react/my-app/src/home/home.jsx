@@ -1,7 +1,6 @@
 
 import React, { useEffect, useState } from 'react'
 import { Homecompo } from '../compo/home'
-// mongodb://127.0.0.1:27017/dummy
 export const Home = () => {
     const [data,setData]=useState([])
     const fetchdata=()=>{
@@ -10,7 +9,6 @@ export const Home = () => {
         .then((e)=>e.json())
         .then((e)=>setData(e))
         .catch((e)=>console.log(e))
-        // console.log(d);
     }
     useEffect(()=>{
         fetchdata()

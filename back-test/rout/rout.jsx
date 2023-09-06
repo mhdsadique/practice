@@ -9,12 +9,10 @@ rout.get("/",async(req,res)=>{
   try{
     const data=await Usermodel.find(body)
       res.send(data)
-    // res.send("get done")
   }catch(c){
     res.send(c);
   }
 })
-
 rout.post("/",async(req,res)=>{
     const body=req.body
     try{
