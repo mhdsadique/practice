@@ -4,7 +4,6 @@ import { Homecompo } from '../compo/home'
 export const Home = () => {
     const [data,setData]=useState([])
     const fetchdata=()=>{
-        
  fetch("http://localhost:8010/rout")
         .then((e)=>e.json())
         .then((e)=>setData(e))

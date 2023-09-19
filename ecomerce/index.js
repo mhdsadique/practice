@@ -110,7 +110,6 @@ function updatefunction(i){
             fetch("http://localhost:8000/datas?_sort=price&_order=asc"
                  ).then((e)=>e.json())
              .then((e)=>{
-         // console.log(e)
          Dataecom(e)
              }).catch((e)=>{
                  console.log(e)
@@ -128,7 +127,6 @@ function updatefunction(i){
             else{
                 getdata()
             }
-    console.log()
   }
   function filterfun(){
     document.getElementById("data").innerHTML=''
@@ -141,3 +139,4 @@ function updatefunction(i){
              }).catch((e)=>{
                  console.log(e)
              })}
+             
