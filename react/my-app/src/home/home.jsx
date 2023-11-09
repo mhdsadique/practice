@@ -18,6 +18,4 @@ export const Home = () => {
         {
             data.map((e)=><Homecompo {...e} />)
         }
-    </div>
-  )
-}
+    </div>)}
