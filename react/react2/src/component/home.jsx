@@ -3,7 +3,9 @@
 import React from 'react'
 
 export const Home = () => {
-  return (
+  return (<>
     <div>Home</div>
+    <img src="" alt="" srcset="" />
+  </>
   )
 }
